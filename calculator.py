@@ -1,6 +1,74 @@
 #calculator project
 from tkinter import *
 
+
+ptint("this is the latest file ":
+
+def clear():
+      db.delete(0,END)
+
+def btn_click(num):
+      cur_num = db.get()
+      clear()
+      f_num = cur_num + num
+      db.insert(0,f_num)
+
+first_num = 0
+math = ""
+def amth(math_type):
+   global first_num,math
+   math = math_type
+   first_num = db.get()
+
+def clear():
+      db.delete(0,END)
+
+def btn_click(num):
+      cur_num = db.get()
+      clear()
+      f_num = cur_num + num
+      db.insert(0,f_num)
+
+first_num = 0
+math = ""
+def amth(math_type):
+   global first_num,math
+   math = math_type
+   first_num = db.get()
+
+
+
+def clear():
+      db.delete(0,END)
+
+def btn_click(num):
+      cur_num = db.get()
+      clear()
+      f_num = cur_num + num
+      db.insert(0,f_num)
+
+first_num = 0
+math = ""
+def amth(math_type):
+   global first_num,math
+   math = math_type
+   first_num = db.get()
+
+def clear():
+      db.delete(0,END)
+
+def btn_click(num):
+      cur_num = db.get()
+      clear()
+      f_num = cur_num + num
+      db.insert(0,f_num)
+
+first_num = 0
+math = ""
+def amth(math_type):
+   global first_num,math
+   math = math_type
+   first_num = db.get()
 mw = Tk()
 mw.title("calculator")
 
